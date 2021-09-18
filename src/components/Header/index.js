@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Wrap = styled.header`
   display: flex;
-  justify-content: end;
+  justify-content: center;
   padding: 1.25rem 1.5rem;
 `
 

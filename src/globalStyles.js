@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
+    transition: background-color 0.5s ease;
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Jacoborope`,
-    description: `Jacobo Romero Pérez personal website`,
+    title: `Theme Switcher`,
+    description: `Jacobo Pérez personal website`,
     author: `@jacoborope`,
     siteUrl: `https://jacoborope.dev/`,
   },
@@ -21,11 +21,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jacoborope`,
-        short_name: `jacoborope`,
+        name: `Theme Switcher`,
+        short_name: `Theme Switcher`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FFFFFF`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
