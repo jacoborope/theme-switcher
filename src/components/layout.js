@@ -9,6 +9,7 @@ import * as React from 'react'
 
 import { darkTheme, lightTheme } from '../theme'
 
+import Footer from '../components/Footer'
 import GlobalStyle from '../globalStyles'
 import Header from '../components/Header'
 import PropTypes from 'prop-types'
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Header theme={theme} toggle={toggleTheme} />
       <main>{children}</main>
+      <Footer></Footer>
     </ThemeProvider>
   )
 }
