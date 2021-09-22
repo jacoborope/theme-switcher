@@ -7,7 +7,11 @@ const ThemeSelector = styled.div`
   height: 1.5rem;
   ${props =>
     ` background-color: ${props.theme.colors.secondary};
-  `}
+`}
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
   border-radius: 50%;
 `
 
